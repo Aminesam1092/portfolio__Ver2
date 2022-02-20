@@ -1,19 +1,25 @@
 /*=================== google fonts ====================*/
-
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Noto+Sans+JP:wght@700&family=PT+Serif:wght@700&family=Pinyon+Script&family=Poppins&family=Quintessential&family=Syne+Tactile&family=The+Nautigal:wght@700&family=Ubuntu:wght@500&family=Yellowtail&display=swap');
 
 /*=================== Variables css ====================*/
 :root {
     --header-height: 3.5rem;
 
 /*=========== Colors ===========*/
-    --main-color: #663399;
+    --main-color: #99154E;
 
 /*=========== Fonts Colors ===========*/
-
-}
+    --Base-font-color:var(--main-color);
+/*=========== Font Size ===========*/
+    --font-size-micro: 12px;
+    --font-size-milli: 14px;
+    --font-size-base: 16px;
+    --font-size-kilo: 18px;
+    --font-size-mega: 24px;
+    --font-size-giga: 32px;
 /*=========== Variables Darkcolor ===========*/
 
-
+}
 /*=================== Reset ====================*/
 img {
     vertical-align: bottom;
@@ -60,4 +66,12 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+
+
+/*=========== Class Base ===========*/
+.Nav__List{
+    font-family: 'Pinyon Script', cursive;
+    color: var(--Base-font-color);
 }
