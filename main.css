@@ -7,7 +7,7 @@
 
 /*=========== Colors ===========*/
     --main-color: #99154E;
-    --header-color: rgb(238, 238, 238);
+    --header-color: rgb(243, 243, 243);
 
 /*=========== Fonts Colors ===========*/
     --Base-font-color:var(--main-color);
@@ -68,12 +68,6 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
-
-
-
-/*=========== Class Base ===========*/
-
-
 
 /*=========== Header ===========*/
 .Header{
