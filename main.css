@@ -19,7 +19,8 @@
     --font-size-mega: 24px;
     --font-size-giga: 32px;
 /*=========== Variables Darkcolor ===========*/
-
+    --black--main-color: #99154e62;
+    --black--header-color: rgb(22, 0, 58);
 }
 /*=================== Reset ====================*/
 img {
