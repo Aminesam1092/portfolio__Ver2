@@ -62,6 +62,21 @@ html{
 }
 body{
     min-width: 320px;
+	height: 100vh;
+	background:linear-gradient(45deg, #ff9100,#bb00ff,#ff1b1b);/*グラデーションを定義*/
+	background-size: 200% 200%;/*サイズを大きくひきのばす*/
+	animation: bggradient 20s ease infinite;
+}
+@keyframes bggradient{
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 /*=========== Base ===========*/
 *{
@@ -70,33 +85,9 @@ body{
     box-sizing: border-box;
 }
 
-/*=========== Header ===========*/
-.Header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 10px;
-    background-color: var(--header-color);
-    height: 75px;
-    box-shadow: 0 15px 10px 0 var(--header-color);
-}
-.Header__Logo{
-    width: 70px;
-    height: 70px;
-    margin-left: 20px;
-}
-.Nav{
-    display: flex;
-    margin-left: auto;
-}
-.Nav__List{
-    font-family: 'Pinyon Script', cursive;
-    color: var(--Base-font-color);
-    font-size: var(--font-size-kilo);
-    display: flex;
-    align-items: center;
-    font-weight: 600;
-}
-.Nav__Item{
-    margin: 0 10px;
+/*=========== Main ===========*/
+.Profile{
+    width: 1160px;
+    height: 600px;
+    background-color: black;
 }
