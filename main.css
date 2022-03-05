@@ -64,7 +64,7 @@ body{
     min-width: 320px;
 	height: 100vh;
 	background:linear-gradient(45deg, #ff9100,#bb00ff,#ff1b1b);/*グラデーションを定義*/
-	background-size: 200% 200%;/*サイズを大きくひきのばす*/
+	background-size: 200% 200%;
 	animation: bggradient 20s ease infinite;
 }
 @keyframes bggradient{
@@ -89,5 +89,10 @@ body{
 .Profile{
     width: 1160px;
     height: 600px;
-    background-color: black;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
