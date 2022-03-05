@@ -17,6 +17,15 @@
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+    .Profileconteiner{
+        display: flex;
+        &__Left{
+            width: 50%;
+        }
+        &__Right{
+            width: 50%;
+        }
+    }
     .Profile__Image--DOUBLALIAMINE{
         width: 20%;
         height: 20%;
