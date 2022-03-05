@@ -1,0 +1,43 @@
+@use "../mixin/font" as f;
+@use "../mixin/breakpoint" as break;
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Noto+Sans+JP:wght@700&family=PT+Serif:wght@700&family=Quintessential&family=Syne+Tactile&family=The+Nautigal:wght@700&family=Ubuntu:wght@500&family=Yellowtail&display=swap');
+.Header{
+    width: 100%;
+    font-family: f.$engfontfamily;
+    box-shadow: 0 15px 10px 10px rgba(255, 255, 255,);
+.Header__Webname{
+    padding: 25px 80px;
+    text-align: center;
+    background-color: white;
+    font-size: f.$font-size-giga;
+    @include break.breakpoint(smartphone) {
+        padding: 10px;
+    }
+}
+.Header__Nav{
+    width: 100%;
+    margin-bottom: 25px;
+    background-color: white;
+    text-align: center;
+    .Header__Nav{
+        width: 100%;
+        background-color: white;
+    }
+    .Header__Menu{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .Header__List{
+        padding: 0 40px;
+        font-size: f.$font-size-mega;
+        @include break.breakpoint(smartphone) {
+            padding: 10px;
+        }
+        &:hover{
+            border-radius: 25px;
+            font-weight: 900;
+        }
+    }
+}
+}
