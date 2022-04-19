@@ -34,9 +34,6 @@ body{
     overflow-x: hidden;
     -ms-overflow-style: none;
     scrollbar-width: none;
-    background:linear-gradient(45deg, #ff9100,#bb00ff,#ff1b1b);/*グラデーションを定義*/
-	background-size: 200% 200%;
-	animation: bggradient 20s ease infinite;
     &::-webkit-scrollbar {
             display: none;
     }
